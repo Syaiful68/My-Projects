@@ -20,5 +20,4 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 
-    RewriteRule ^api/.*$ /api/index.php [L]
 </IfModule>
