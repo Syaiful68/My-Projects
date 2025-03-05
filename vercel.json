@@ -9,7 +9,7 @@
     },
     "routes":[{
         "src":"/(.*)",
-        "dest":"/api/index.php"
+        "dest":"/index.php"
     }],
     "env":{
         "APP_ENV" :"production",
@@ -24,8 +24,9 @@
         "VIEW_COMPLITE_PATH":"/temp",
 
         "CACHE_DRIVER":"array",
-        "LOG_CHANNEL":"stdeer",
+        "LOG_CHANNEL":"stderr",
         "SESSION_DRIVER":"coockie"
-    }
+    },
+    "outputDirectory":"public"
 
 }
